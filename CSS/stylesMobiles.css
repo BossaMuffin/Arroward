@@ -1,0 +1,170 @@
+/*--- MENU MOBILE ---*/
+#header p{
+	display:none;
+}
+#header .centrage div{
+	width:152px;
+}
+
+/*---*/
+#menu{
+	height:auto;
+	line-height:normal;
+	border-top:1px solid #dde3d5;
+}
+#menu ul{
+	position:relative;
+	right:auto;
+	top:auto;
+}
+#menu ul li{
+	float:none;
+}
+#menu ul li a{
+	height:30px;
+	line-height:30px;
+	float:none;
+	text-align:center;
+}
+#menu.fixed{
+	position: relative;
+	top: auto;
+	left: auto;
+}
+
+/*--------------------------------*/
+#trombinoscope,
+#trombinoscope li,
+#trombinoscope li img{
+	float:none;
+}
+.separation{
+	padding: 0 5%;
+	width:90%;
+}
+#trombinoscope li img{
+	max-width:320px;
+	width:100%;
+	margin:0 auto;
+	display:block;
+}
+.hauteur-fixe{
+	height:auto;
+	padding-bottom:20px;
+}
+#main h2{
+	height:auto;
+}
+.intro-categorie{
+	padding: 0 15%;
+}
+#axes ul li p{
+	font-size:1.15em;
+}
+.rx-fb a, .rx-twitter a, .rx-gplus a, .rx-pinterest a{
+	margin:6px 0 0 6px;
+}
+#accueil .bx-wrapper{
+	padding:0 0 30px;
+}
+.flottant{
+	float:left;
+	margin:20px 2% 20px 6%;
+	width:100%;
+}
+/*---*/
+#slide-folio .details-folio{
+	display:none;
+}
+#slide-folio div,
+#slide-folio li div img{
+	height:116px;
+	width:312px;
+}
+#portfolio .bx-wrapper{
+	padding:4px;
+	height:116px;
+	width:312px;
+}
+#portfolio .bx-prev, #portfolio .bx-next{
+	top:350px;
+	z-index:99;
+}
+
+/*--- OFFRES MOBILE ---*/
+.tab-offres,
+.tab-offres + .tab-offres,
+.tab-offres + .tab-offres + .tab-offres{
+	float:none;
+	margin:10px auto 0;
+}
+/*---*/
+#wrapper-offre-mob{
+	position:relative;
+	left:auto;
+	top:auto;
+}
+#tab-complet-offres{
+	display:none;
+}
+
+/*--- CONTACT MOBILE ---*/
+#contact{
+	padding-bottom:31px;
+}
+#contact form,
+#support-frame{
+	width:320px;
+	margin:0 auto;
+}
+#form-mail{
+	padding:0;
+}
+#form-nom input, #form-mail input,
+#contact form textarea, #contact #form-sujet input{
+	width:320px;
+	padding:0;
+	float:none;
+}
+#support-frame,
+#support-frame iframe{
+	height:300px;
+}
+#form-send{
+	min-height:40px;
+}
+
+/*--- HAUT PAGE MOBILE ---*/
+.b-fix-d a {
+	position:fixed;
+	z-index:99;
+}
+
+/*--- HAUT DE PAGE ---*/
+#haut-de-page a {
+	top:0px;
+	left:0;
+	display : none;
+	background:url("../img/Mobile/haut_page_mob.png") no-repeat center center #dde3d5;
+	height:31px;
+	width:100%;
+	padding:5px 0;
+	text-align:center;
+	transition-property: top;
+	transition-duration: 1s;
+}
+#haut-de-page a:hover{
+	background-position:center center;
+}
+
+/*--- FOOTER MOBILE ---*/
+#contenu-mentions #affiche-masque {
+	display:none;
+}
+
+#footer .centrage div{
+	float:right;
+	height:44px;
+	width:100%;
+	font-size: 1em;
+}

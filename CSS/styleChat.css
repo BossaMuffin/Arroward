@@ -1,0 +1,70 @@
+
+img {
+    vertical-align: middle;
+}
+
+
+/* Bloc contenant la zone de texte et bouton */
+
+	.post_message  {
+		width: 100%;
+		margin: auto;
+		/*background: #f8fafd;*/
+		/*padding: 3px;*/
+	}
+
+/* Zone de texte */
+
+	.post_message .message {
+		width: 75%;
+	}
+
+/* Bouton d'envoi */
+
+	.post_message .post {
+		width: 20%;
+	}
+
+
+/* La zone où sont affichés les messages
+et utilisateurs connectés */
+
+	.chat {
+		width: 100%;
+		height:90%;
+		padding: 0px;
+	}
+
+/* Bloc de chargement */
+
+	.chat .loading {
+		margin-top: 50px;
+	}
+
+
+/* Zone des messages */
+
+	.chat .text-td {
+		margin: 0px; 
+		padding: 5px; 
+		width: 80%; 
+		background: #fff;
+
+	}
+
+/* Zone des utilisateurs connectés */
+
+	.chat .text{
+		height:100%; 
+		overflow-y: auto;
+	}
+
+
+/* Modification du statut */
+
+
+	.info {
+		color: green;
+	}
+	
+

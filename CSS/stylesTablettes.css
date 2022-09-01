@@ -1,0 +1,92 @@
+/*--- GENERAL ---*/
+#contact,
+.hauteur-fixe{
+	height:auto;
+	padding-bottom:20px;
+}
+
+/*--- OFFRES TABLETTE ---*/
+
+
+/*--- TROMBI TABLETTE ---*/
+#trombinoscope{
+	width:720px;
+	margin:0 auto;
+}
+#trombinoscope li img{
+	width:250px;
+	height:auto;
+}
+#trombinoscope li + li img{
+	width:231px;
+	height:auto;
+}
+#trombinoscope li{
+	margin: 16px 0 20px;
+}
+#trombinoscope li + li{
+	margin: 10px 0 20px 7px;
+}
+#trombinoscope li + li + li{
+	margin: 6px 0 20px;
+}
+
+/*--- FOLIO TABLETTE ---*/
+#slide-folio .details-folio{
+	display:none;
+}
+#slide-folio div,
+#slide-folio li div img{
+	height:253px;
+	width:680px;
+}
+#portfolio .bx-wrapper{
+	padding:4px;
+	height:253px;
+	width:680px;
+}
+#portfolio .bx-prev, #portfolio .bx-next{
+	top:365px;
+	z-index:99;
+}
+
+/*--- OFFRES TABLETTE ---*/
+#wrapper-offres{
+	width:655px;
+}
+#offre-03{
+	float:none;
+	clear:both;
+}
+#wrapper-offres,
+#offre-03{
+	margin:0 auto;
+}
+
+/*--- CONTACT TABLETTE ---*/
+#contact form,
+#support-frame{
+	width:760px;
+	margin:0 auto;
+}
+#form-mail{
+	padding:0;
+}
+#form-nom input, #form-mail input,
+#contact form textarea, #contact #form-sujet input{
+	width:760px;
+	padding:0;
+	float:none;
+}
+#support-frame,
+#support-frame iframe{
+	height:300px;
+}
+#form-send{
+	min-height:40px;
+}
+
+/*--- HAUT PAGE TABLETTE ---*/
+#haut-de-page{
+	display:none;
+}
